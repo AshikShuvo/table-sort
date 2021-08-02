@@ -1,0 +1,13 @@
+.navWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+}
+.navItem{
+    flex-grow: 1;
+    cursor: pointer;
+}
+.navItem:hover{
+    background-color: blue;
+}
